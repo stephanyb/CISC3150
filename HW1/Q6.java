@@ -27,6 +27,11 @@ public class Q6 {
 		
 		if(distance == (radius1+radius2))//touching
 			System.out.println("Circles TOUCH");
+		
+		/*The following link was used for assistance for the distance versus radius1 and radius2 comparison 
+		 * https://stackoverflow.com/questions/22032342/java-two-circles-overlap-or-inside
+		*/
+		
 		else if( (distance <= (radius1 -radius2) && (radius1 >= radius2)) || ( (distance <= (radius2-radius1)) && (radius2 >= radius1)) 
 				|| (distance == 0) || distance == radius1 || distance == radius2)
 			System.out.println("Circles ARE WITHIN ONE ANOTHER"); //within one another
