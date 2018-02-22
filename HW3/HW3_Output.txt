@@ -1,0 +1,27 @@
+                   Testing CharAt Method
+CharAt[0]:h   CharAt[1]:e   CharAt[2]:l   CharAt[3]:l   CharAt[4]:o   
+
+                 Testing length() Method
+Length of str.charArr: 5
+
+                Testing Substring Method
+Substring of charArr[] from index 0 to 1: he
+
+            Testing toLowerCase() Method
+charUpperCase: UPPER   toLowerCase: upper
+
+            Testing toUpperCase() Method
+charLowerCase: lower   toUpperCase: LOWER
+
+                Testing compareTo Method
+charArr[]:hello  charToCompare:hemlo
+charArr compareTo charToCompare Value = -1
+
+            Testing getMyString() Method
+str.charArr: hello
+
+               Testing toString() Method
+str.charArr toString: hello
+
+                  Testing valueOf Method
+str4.valueOf(9824): 9824    Length = 4
