@@ -1,0 +1,26 @@
+Sources of Techniques used:
+1. https://www.javaworld.com/article/2077647/build-ci-sdlc/make-java-fast--optimize-.html?page=3
+2. https://stackoverflow.com/questions/29144275/xx-vs-math-powx-2-java-performance
+3. https://stackoverflow.com/questions/29193371/fast-real-valued-random-generator-in-java
+	along with the API :https://docs.oracle.com/javase/8/docs/api/java/util/SplittableRandom.html
+
+Summary:
+1. To improve the performance of my version1 program, the first source hinted for me to chang my previous for loop overhead to a seemily less time consuming one;
+
+				version 1						version 2
+			for(i = 0L; i < 4000000000L; i++) 			for(i = 4000000000L; --i >= 0)
+
+2. The second source stated that using the Math.pow() function was more efficient than performing the x*x equation within the for loop's "if" statement;
+
+				version 1						version 2
+			if( ((x*x) + (y*y)) <= radius)				if(Math.pow(x,2)+Math.pow(y,2) <= radius)
+
+3. Rather than using the Random class in java, the thrid source offered a faster way to generate numbers in java, the SplittableRandom class, which greatly improved the speed of my code;
+
+				version 1						version 2
+			Random rand = new Random(); 				SplittableRandom rand = new SplittableRandom();
+			for(...){						for(...){
+				x = 2*rand.nextDouble();				x = rand.nextDouble(2.0);
+				y = 2*rand.nextDouble();				y = rand.nextDouble(2.0);
+				...							...
+			}							}
