@@ -1,0 +1,26 @@
+Question 2
+What is printed on the screen and which method is being called.
+
+1- a. Output: Woof, woof,woof!
+      Method Called: public String call(int k) in Dog class
+
+   b. Output: I'm a cat, go away!
+      Method Called: public String toString() in Cat class 
+
+   c. Output: error will occur because Object class does not have a call() method
+
+   d. Output: some string
+      Method Called: Since Pet inherits from Object, the toString method from Object is called.
+
+   e. Output: woof!
+      Method Called: pulic String call() in Dog class
+
+   f. Output: Come here, kitty? ...Don't waste my time.
+      Method Called: public String toString(String b) in Cat class
+
+   g. Output: error will occur since Cat does not have a method signature call(int), only call().
+
+   h. Output: four
+      Method Called: public String feet() in Pet class
+
+   i. Output: error will occur since Pet class does not have a method with signature call(int)
