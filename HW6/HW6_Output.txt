@@ -1,0 +1,73 @@
+Number of Queens: 4
+ x  Q  x  x
+ x  x  x  Q
+ Q  x  x  x
+ x  x  Q  x
+
+ x  x  Q  x
+ Q  x  x  x
+ x  x  x  Q
+ x  Q  x  x
+
+Number of Queens: 0
+
+Number of Queens: 5
+ Q  x  x  x  x
+ x  x  Q  x  x
+ x  x  x  x  Q
+ x  Q  x  x  x
+ x  x  x  Q  x
+
+ Q  x  x  x  x
+ x  x  x  Q  x
+ x  Q  x  x  x
+ x  x  x  x  Q
+ x  x  Q  x  x
+
+ x  Q  x  x  x
+ x  x  x  Q  x
+ Q  x  x  x  x
+ x  x  Q  x  x
+ x  x  x  x  Q
+
+ x  Q  x  x  x
+ x  x  x  x  Q
+ x  x  Q  x  x
+ Q  x  x  x  x
+ x  x  x  Q  x
+
+ x  x  Q  x  x
+ Q  x  x  x  x
+ x  x  x  Q  x
+ x  Q  x  x  x
+ x  x  x  x  Q
+
+ x  x  Q  x  x
+ x  x  x  x  Q
+ x  Q  x  x  x
+ x  x  x  Q  x
+ Q  x  x  x  x
+
+ x  x  x  Q  x
+ Q  x  x  x  x
+ x  x  Q  x  x
+ x  x  x  x  Q
+ x  Q  x  x  x
+
+ x  x  x  Q  x
+ x  Q  x  x  x
+ x  x  x  x  Q
+ x  x  Q  x  x
+ Q  x  x  x  x
+
+ x  x  x  x  Q
+ x  Q  x  x  x
+ x  x  x  Q  x
+ Q  x  x  x  x
+ x  x  Q  x  x
+
+ x  x  x  x  Q
+ x  x  Q  x  x
+ Q  x  x  x  x
+ x  x  x  Q  x
+ x  Q  x  x  x
