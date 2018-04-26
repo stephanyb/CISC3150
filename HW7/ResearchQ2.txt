@@ -1,0 +1,29 @@
+Research why you're able to call the default implementation of a method in 
+an interface with some weird syntax. Here's the code:
+
+public class blah{
+	public static void main(String[] args){
+		A a = new A();
+		a.someMethod();
+	}
+}
+
+interface myinterface{
+	default public void sayHello(){
+		System.out.println("Hello");
+	}
+}
+
+class A implements myinterface{
+	public void someMethod(){
+		myinterface.super.sayHello();
+	}
+}
+
+Again, your answer must provide sources.
+-------------------------------------------------------------------------------
+Answer: "But what if we would like to call the default implementation
+		of [the] method foo() from interface A instead of implementing our own. 
+		It is possible to refer to refer to A and foo()" with super();
+		
+Source: https://zeroturnaround.com/rebellabs/java-8-explained-default-methods/
