@@ -5,7 +5,11 @@
 synchonized removed from the method declarations, the program just died 
 without throwing any exceptions. Given that we are working with an 
 infinite loop here, that shouldn't have happened. Explain that.
-	When the NotifyAll() ran, it was throwing an unchecked except which would not have to be handled. But since it does throw some sort of exception, the corresponding "public void run()" catches it and since we did not write any actions to be done when a Throwable is caught, the program just dies. 
+	When the NotifyAll() ran, it was throwing an unchecked except 
+	which would not have to be handled. But since it does throw some 
+	sort of exception, the corresponding "public void run()" catches it 
+	and since we did not write any actions to be done when a Throwable is caught, 
+	the program just dies. 
 
 3. Figure out how you'd fix it. Research how to have two threads share an object's monitor and fix the code.
 	(Addition of the "synchronized" to both producer and consumer methods)
